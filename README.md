@@ -22,7 +22,7 @@
 - 👯 I’m looking to collaborate on **innovative iOS projects** and **complex backend systems**.
 - 🤔 I’m looking for help with **cutting-edge tech** in mobile and backend domains.
 - 💬 Ask me about **Swift, SwiftUI, Python, FastAPI, Django, Flask**.
-- 📫 How to reach me: **[Insert your contact method]**
+- 📫 How to reach me: **No , you don't. if it's necessary i will.**
 - 😄 Pronouns: **He/Him**
 - ⚡ Fun fact: **I'm a night owl 🦉 who codes best under the moonlight 🌕.**
 
