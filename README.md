@@ -23,7 +23,7 @@
 - 🤔 I’m looking for help with **cutting-edge tech** in mobile and backend domains.
 - 💬 Ask me about **Swift, SwiftUI, Python, FastAPI, Django, Flask**.
 - 📫 How to reach me: **No , you don't. if it's necessary i will.**
-- 😄 Pronouns: **He/Him**
+- 🦖 Pronouns: **Porsche/911**
 - ⚡ Fun fact: **I'm a night owl 🦉 who codes best under the moonlight 🌕.**
 
 ---
