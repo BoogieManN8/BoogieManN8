@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm BoogieManN8 aka SKUGGE</h1>
+<h1 align="center">Hi there 👋, I'm BoogieManN8</h1>
 
 <p align="center">
   <em>
