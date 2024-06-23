@@ -30,11 +30,4 @@
 
 💼 **Technical Skills:**
 
-```text
-Swift & SwiftUI       ████████████████████░   95%
-Python                ██████████████████░░░   90%
-FastAPI               ██████████████░░░░░░░   70%
-Django                ████████████░░░░░░░░░   60%
-Flask                 ████████████░░░░░░░░░   60%
-Database Management   ███████████░░░░░░░░░░   55%
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xfeeddeadbeef&show_icons=true&line_height=33&count_private=false&theme=dark" alt="0xfeeddeadbeef's GitHub Stats" />
