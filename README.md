@@ -15,6 +15,13 @@
 
 ---
 
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=BoogieManN8&show_icons=true&line_height=33&count_private=false&theme=dark" alt="0xfeeddeadbeef's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BoogieManN8&hide=cmake&langs_count=4&line_height=35&theme=dark" />
+</p>
+
+---
+
 👨‍💻 **About Me:**
 
 - 🔭 I’m currently working on **revolutionizing mobile app development**.
@@ -25,11 +32,3 @@
 - 📫 How to reach me: **[Drop me a line!](https://www.linkedin.com/in/tengo-kiknadze-8695391ab)**
 - 🦖 Pronouns: **Porsche/911**
 - ⚡ Fun fact: **I'm a night owl 🦉 who codes best under the moonlight 🌕.**
-
----
-
-💼 **Technical Skills:**
-
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=BoogieManN8&show_icons=true&line_height=33&count_private=false&theme=dark" alt="0xfeeddeadbeef's GitHub Stats" />
-
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BoogieManN8&hide=cmake&langs_count=4&line_height=35&theme=dark" />
