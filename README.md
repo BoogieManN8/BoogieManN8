@@ -31,3 +31,5 @@
 💼 **Technical Skills:**
 
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=BoogieManN8&show_icons=true&line_height=33&count_private=false&theme=dark" alt="0xfeeddeadbeef's GitHub Stats" />
+
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BoogieManN8&hide=cmake&langs_count=4&line_height=35&theme=dark" />
