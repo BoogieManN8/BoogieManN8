@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm BoogieManN8</h1>
+<h1 align="center">Hey there 👋 I'm Your Friendly Neighborhood BoogieManN8</h1>
 
 <p align="center">
   <em>
@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=BoogieManN8&show_icons=true&line_height=33&count_private=false&theme=dark" alt="0xfeeddeadbeef's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=BoogieManN8&show_icons=true&line_height=33&count_private=false&theme=dark" alt="BoogieManN8's GitHub Stats" />
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BoogieManN8&hide=cmake&langs_count=4&line_height=35&theme=dark" />
 </p>
 
