@@ -2,7 +2,7 @@
 
 <p align="center">
   <em>
-    Passionate iOS Developer 💻 | Backend Maestro 🛠️ | Python Aficionado 🐍 | SwiftUI Enthusiast 📱
+  iOS Developer 💻 | Backend Maestro 🛠️ | Python Aficionado 🐍 | SwiftUI Enthusiast 📱
   </em>
 </p>
 
