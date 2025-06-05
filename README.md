@@ -23,9 +23,9 @@
 ## 🛠️ Tech Stack & Superpowers
 | ⚙️ | Skill |
 |---|---|
-| 🧑‍💻 | **Swift 5.9 & SwiftUI 3** – crafting fluid interfaces and pixel-perfect animations |
+| 🧑‍💻 | **Swift 5.9 & SwiftUI 3** – crafting fluid interfaces and pixel-perfect Vired & animations |
 | 🧩 | **UIKit** – bridging legacy with modern magic |
-| 🐍 | **Python 3.11** – data whisperer & automation ninja |
+| 🐍 | **Python 3** – data whisperer & automation ninja |
 | ⚡ | **FastAPI** – rocket-fuel for REST back ends |
 | ☁️ | **AWS & Firebase** – serverless spells & real-time firepower |
 | 🐘 | **PostgreSQL / SQLAlchemy** – relational alchemy |
