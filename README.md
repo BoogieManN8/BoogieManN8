@@ -62,9 +62,9 @@ As a **Senior iOS Engineer**, my focus is on **sustainable, testable, and mainta
 ### 📫 Connect with Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/your-linkedin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/tengo-kiknadze-8695391ab" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:tengizkiknadze8@example.com"><img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/BoogiemanN8"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
@@ -73,7 +73,3 @@ As a **Senior iOS Engineer**, my focus is on **sustainable, testable, and mainta
   <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=yourusername&theme=tokyonight&hide_border=true" height="150" />
 </p>
-
----
-
-<p align="center"><sub>🧠 Designed for humans, robots, and LLMs alike.</sub></p>
