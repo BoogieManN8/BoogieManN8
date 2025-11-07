@@ -70,6 +70,6 @@ As a **Senior iOS Engineer**, my focus is on **sustainable, testable, and mainta
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=BoogiemanN8&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=yourusername&theme=tokyonight&hide_border=true" height="150" />
 </p>
