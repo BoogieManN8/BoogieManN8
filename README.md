@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hey, I'm <strong>Tengiz Kiknadze</strong></h1>
 
 <p align="center">
-  <em>Senior iOS & Full Stack Engineer • Security-Focused • Architecture Enthusiast</em>
+  <em>Senior iOS & Backend Developer • Security-Focused • Architecture Enthusiast</em>
 </p>
 
 ---
