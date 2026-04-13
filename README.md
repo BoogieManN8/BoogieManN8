@@ -1,75 +1,87 @@
 <h1 align="center">👋 Hey, I'm <strong>Tengiz Kiknadze</strong></h1>
 
 <p align="center">
-  <em>Senior iOS & Backend Developer • Security-Focused • Architecture Enthusiast</em>
+  <em>Senior iOS Engineer • Systems Architect • Product-Minded Developer</em>
 </p>
 
 ---
 
 ### 📊 Professional Snapshot
 
+I am a Senior Software Engineer specializing in the Apple ecosystem with a robust cloud-native backend foundation. Since 2020, I have been engineering scalable, commercial-grade mobile applications from the ground up. I bridge the gap between high-performance iOS clients and scalable server architectures, delivering end-to-end products that prioritize security, maintainability, and minimalistic, highly attractive UI/UX. 
+
 | Metric | Value |
-|:--|:--|
-| 🧑‍💻 **Experience** | 5+ Years in iOS & Full Stack |
-| 🛡️ **Security Expertise** | ISO 27001 Compliant Development |
-| 👨‍💼 **Leadership** | Led 12-Member Engineering Teams |
-| 🚀 **Projects Delivered** | 20+ Real-World Applications |
+|:---|:---|
+| 🧑‍💻 **Experience** | 6 Years of Native iOS & Backend System Architecture |
+| 🏗️ **Core Focus** | iOS (Swift 6 / SwiftUI), Modular Architecture, API Design |
+| 🛡️ **Security** | ISO 27001 Compliant Development, Keychain & OAuth2 |
+| 👨‍💼 **Leadership** | Mentored and Led Cross-Functional Engineering Teams |
 
 ---
 
-### 🏗️ Architecture & Mobile Engineering
+### ⚡ Technical Arsenal & SEO Keywords
 
-As a **Senior iOS Engineer**, my focus is on **sustainable, testable, and maintainable architecture** — ensuring clean separation of concerns and leveraging modern design patterns for complex, high-performance applications.
+**📱 iOS Engineering (Core Focus)**
+* **Languages & Frameworks:** Swift 6, SwiftUI, UIKit, Combine, Core Data, SwiftData.
+* **Modern Concurrency:** `async/await`, Actors, Task Groups, Data Race Safety (Sendable).
+* **Architecture & Design:** TCA (The Composable Architecture), Clean Architecture, VIPER, MVVM, Modularization.
+* **Performance & Testing:** XCTest (Unit/UI), TDD, Instruments, Memory Management (ARC, Retain Cycles), App Store Connect.
+* **Advanced Integrations:** Core ML / On-device AI processing, secure local storage. 
 
-| Pattern | Focus | Description |
-|:--|:--|:--|
-| **MVVM** | Data-Driven UI | Reactive UI using **Combine** and **SwiftUI** for clean, testable data flow. |
-| **MVC / MVP** | Foundational | Leveraging mature patterns to bridge **UIKit** legacy systems while maintaining stability. |
-| **VIPER** | Scalability | Architecting enterprise-level modules with clear boundaries for maintainability and reusability. |
-
----
-
-### ⚡ Core Technical Skills (Senior Level)
-
-| Mobile Engineering | Full Stack & Backend | Cloud, DevOps & Security |
-|:--|:--|:--|
-| Swift, SwiftUI, UIKit, Combine | Node.js, Express, TypeScript | AWS, Docker, CI/CD (GitHub Actions) |
-| Architecture Patterns, Async/await | REST, WebSockets, MongoDB | ISO 27001, JWT, OAuth2, Keychain, Encryption |
-| XCTest, TDD, Instruments | Next.js, GraphQL, Firebase | Secure API Design, Load Balancing |
+**⚙️ Backend & Infrastructure**
+* **Languages & Frameworks:** Python, FastAPI, Django.
+* **Database & Cloud:** PostgreSQL, Google Firebase, AWS, Cloud-Native Deployment.
+* **Architecture:** RESTful APIs, WebSockets for real-time data streaming, Tiered AI Model Routing, Fallback Strategies.
+* **DevOps & Security:** Docker, CI/CD (GitHub Actions), JWT, Cryptography, Defensive Programming.
 
 ---
 
-### ✨ Career Impact & Leadership Highlights
+### ✨ Career Impact & Execution
 
-- **🧭 Strategic Leadership:** Led and mentored a 12-member engineering team using Agile/SCRUM to deliver **4+ national-level cybersecurity platforms**.  
-- **🧱 Modernization Expert:** Migrated **80% of a flagship iOS app** from UIKit → SwiftUI, resulting in cleaner code and smoother UX.  
-- **⚡ Performance Optimization:** Reduced API latency by **25%** through backend and data routing optimizations.  
-- **🔐 Security Guardian:** Built ISO 27001-compliant systems emphasizing encryption, secure API design, and key management.  
-- **🛰️ Real-Time Systems:** Designed WebSocket-based systems for **crypto exchange monitoring** and **low-latency algorithmic data routing**.
+* **End-to-End Product Delivery:** Architected and delivered dual-platform solutions, writing scalable SwiftUI mobile clients backed by high-speed Python/FastAPI microservices.
+* **Modernization & Tech Debt:** Led the migration of flagship iOS applications from legacy UIKit to declarative SwiftUI, drastically reducing technical debt while establishing testable, reactive data flows.
+* **Complex System Integrations:** Engineered real-time streaming progress modules and optimized network layer latency by building custom data routing and multi-model AI fallback chains.
+* **Strategic Leadership:** Directed engineering teams through Agile/SCRUM sprints to deliver enterprise-level platforms, enforcing strict code review standards and automated Xcode CI/CD pipelines.
+* **Security Guardian:** Built ISO 27001-compliant mobile systems emphasizing strict payload encryption, secure key management, and robust user authentication.
+
+---
+
+### 🏗️ Architectural Philosophy
+
+I don't just write code; I design sustainable systems. My approach centers on **testability, separation of concerns, and scalable module boundaries.**
+
+| Pattern | Application in Production |
+|:---|:---|
+| **Clean / VIPER** | Isolating business logic from UI frameworks to build enterprise-level iOS modules that scale across large teams without merge conflicts. |
+| **MVVM + Combine / TCA** | Creating strictly data-driven, predictable state management in SwiftUI to guarantee highly responsive, crash-free interfaces. |
+| **Backend Integration** | Designing decoupled network abstractions that seamlessly handle asynchronous tasks, real-time socket events, and graceful error recovery. |
 
 ---
 
 ### 🌌 Beyond the Code
 
-> “Clean code is not written when there is nothing more to add, but when there is nothing left to remove.”
+> "Clean code is not written when there is nothing more to add, but when there is nothing left to remove."
 
-🦉 Night-owl coder passionate about elegant, scalable architecture.  
-🎨 Pixel perfectionist — where **framerates and clean code** form the rhythm of great UX.  
-🧭 Constant learner exploring **new frameworks** and **scalable system design**.  
+* 🦉 Solopreneur mindset with a sharp focus on commercial validation, market discovery, and startup execution.
+* 🎨 Passionate about the intersection of clean architecture and pixel-perfect, responsive UI.
+* 🧭 Constantly exploring new ways to optimize application memory limits, frame rates, and backend ecosystems.
 
 ---
 
-### 📫 Connect with Me
+### 📫 Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/tengo-kiknadze-8695391ab" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:tengizkiknadze8@example.com"><img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/BoogiemanN8"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/tengo-kiknadze-8695391ab" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:tengizkiknadze8@example.com"><img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/BoogiemanN8"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 ---
 
+### 📈 GitHub Activity 
+
+*(Note: The vast majority of my daily engineering work occurs in private, enterprise-level repositories under NDAs. The automated metrics below only reflect my public-facing contributions and do not represent my total commit history.)*
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BoogiemanN8&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=yourusername&theme=tokyonight&hide_border=true" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BoogiemanN8&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
 </p>
