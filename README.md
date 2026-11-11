@@ -1,87 +1,54 @@
-<h1 align="center">👋 Hey, I'm <strong>Tengiz Kiknadze</strong></h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" width="100%" alt="Tengiz Kiknadze, Senior iOS Developer. Swift, SwiftUI, UIKit and Swift Concurrency. Three apps on the App Store: Miroa, Shelft and NovaThink.">
+</picture>
 
-<p align="center">
-  <em>Senior iOS Engineer • Systems Architect • Product-Minded Developer</em>
-</p>
+I'm **Tengiz Kiknadze**, a Senior iOS Developer in Tbilisi, Georgia. I've spent 6 years building iOS apps in Swift, SwiftUI and UIKit: a live crypto trading app, match-day dashboards for professional sports clubs, a vertical video feed for a social startup, and three apps of my own on the App Store.
 
----
+Plenty of people start apps. I have a habit of finishing them.
 
-### 📊 Professional Snapshot
+Right now most of my hours go to backend, security and infrastructure on a live crypto exchange. It is the heaviest work I've done so far. Real money has a way of sharpening your code review.
 
-I am a Senior Software Engineer specializing in the Apple ecosystem with a robust cloud-native backend foundation. Since 2020, I have been engineering scalable, commercial-grade mobile applications from the ground up. I bridge the gap between high-performance iOS clients and scalable server architectures, delivering end-to-end products that prioritize security, maintainability, and minimalistic, highly attractive UI/UX. 
+That's the short version. [The long version](https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md) has the full history, the stack and how I work.
 
-| Metric | Value |
-|:---|:---|
-| 🧑‍💻 **Experience** | 6 Years of Native iOS & Backend System Architecture |
-| 🏗️ **Core Focus** | iOS (Swift 6 / SwiftUI), Modular Architecture, API Design |
-| 🛡️ **Security** | ISO 27001 Compliant Development, Keychain & OAuth2 |
-| 👨‍💼 **Leadership** | Mentored and Led Cross-Functional Engineering Teams |
+## Apps I built and shipped
 
----
+<a href="https://apps.apple.com/us/app/miroa-private-video-journal/id6775486360"><img src="assets/app-miroa.svg" width="260" alt="Miroa: Private Video Journal on the App Store"></a>
+<a href="https://apps.apple.com/us/app/shelft-warranty-tracker-log/id6773617067"><img src="assets/app-shelft.svg" width="260" alt="Shelft: Warranty Tracker and Log on the App Store"></a>
+<a href="https://apps.apple.com/us/app/novathink-new-startup-ideas/id6761935846"><img src="assets/app-novathink.svg" width="260" alt="NovaThink: New Startup Ideas on the App Store"></a>
 
-### ⚡ Technical Arsenal & SEO Keywords
+- [Miroa](https://apps.apple.com/us/app/miroa-private-video-journal/id6775486360) is a private video and voice journal. It transcribes speech on the device, keeps an encrypted backup in Cloudflare R2 and runs AI analysis on your entries. Swift 6, SwiftUI, SwiftData, VIPER with RIBs, written test-first.
+- [Shelft](https://apps.apple.com/us/app/shelft-warranty-tracker-log/id6773617067) is a warranty and receipt tracker. Vision OCR reads the purchase details off a photo. CloudKit does the syncing, so there is no server to babysit.
+- [NovaThink](https://apps.apple.com/us/app/novathink-new-startup-ideas/id6761935846) is idea validation for founders. LLM integration with structured output, plus an iPad layout that is more than a stretched iPhone.
 
-**📱 iOS Engineering (Core Focus)**
-* **Languages & Frameworks:** Swift 6, SwiftUI, UIKit, Combine, Core Data, SwiftData.
-* **Modern Concurrency:** `async/await`, Actors, Task Groups, Data Race Safety (Sendable).
-* **Architecture & Design:** TCA (The Composable Architecture), Clean Architecture, VIPER, MVVM, Modularization.
-* **Performance & Testing:** XCTest (Unit/UI), TDD, Instruments, Memory Management (ARC, Retain Cycles), App Store Connect.
-* **Advanced Integrations:** Core ML / On-device AI processing, secure local storage. 
+I designed, built and released all three on my own, StoreKit 2 subscriptions and App Store review included.
 
-**⚙️ Backend & Infrastructure**
-* **Languages & Frameworks:** Python, FastAPI, Django.
-* **Database & Cloud:** PostgreSQL, Google Firebase, AWS, Cloud-Native Deployment.
-* **Architecture:** RESTful APIs, WebSockets for real-time data streaming, Tiered AI Model Routing, Fallback Strategies.
-* **DevOps & Security:** Docker, CI/CD (GitHub Actions), JWT, Cryptography, Defensive Programming.
+## Open source
 
----
+- [Networking](https://github.com/BoogieManN8/Networking) is a small Swift networking layer on URLSession and async/await. It has typed endpoints, a WebSocket client that lives in an actor and reconnects by itself, and zero dependencies.
+- [CustomRouting](https://github.com/BoogieManN8/CustomRouting) is a SwiftUI router that puts screens, alerts and modals behind one protocol.
 
-### ✨ Career Impact & Execution
+Most of my commits sit in private repositories under NDA. What you see on this profile is the trailer.
 
-* **End-to-End Product Delivery:** Architected and delivered dual-platform solutions, writing scalable SwiftUI mobile clients backed by high-speed Python/FastAPI microservices.
-* **Modernization & Tech Debt:** Led the migration of flagship iOS applications from legacy UIKit to declarative SwiftUI, drastically reducing technical debt while establishing testable, reactive data flows.
-* **Complex System Integrations:** Engineered real-time streaming progress modules and optimized network layer latency by building custom data routing and multi-model AI fallback chains.
-* **Strategic Leadership:** Directed engineering teams through Agile/SCRUM sprints to deliver enterprise-level platforms, enforcing strict code review standards and automated Xcode CI/CD pipelines.
-* **Security Guardian:** Built ISO 27001-compliant mobile systems emphasizing strict payload encryption, secure key management, and robust user authentication.
+## Stack
 
----
+| Area | What I use |
+|:--|:--|
+| Every day | Swift, SwiftUI, UIKit, Swift Concurrency, Combine |
+| Architecture | VIPER, RIBs, TCA, MVVM-C, Clean Architecture, TDD |
+| Frameworks | StoreKit 2, AVFoundation, CloudKit, SwiftData, Core ML, Vision, WidgetKit |
+| Around the app | XCTest, Fastlane, GitHub Actions, REST, WebSockets, Firebase |
 
-### 🏗️ Architectural Philosophy
+I've also led UIKit to SwiftUI migrations on production apps. Nobody misses the storyboards.
 
-I don't just write code; I design sustainable systems. My approach centers on **testability, separation of concerns, and scalable module boundaries.**
+## Get in touch
 
-| Pattern | Application in Production |
-|:---|:---|
-| **Clean / VIPER** | Isolating business logic from UI frameworks to build enterprise-level iOS modules that scale across large teams without merge conflicts. |
-| **MVVM + Combine / TCA** | Creating strictly data-driven, predictable state management in SwiftUI to guarantee highly responsive, crash-free interfaces. |
-| **Backend Integration** | Designing decoupled network abstractions that seamlessly handle asynchronous tasks, real-time socket events, and graceful error recovery. |
+I'm open to senior iOS roles, remote or in Europe. Relocation is fine. I pack light.
 
----
+Email is the quickest way to reach me: [tengizkiknadze8@gmail.com](mailto:tengizkiknadze8@gmail.com)
 
-### 🌌 Beyond the Code
-
-> "Clean code is not written when there is nothing more to add, but when there is nothing left to remove."
-
-* 🦉 Solopreneur mindset with a sharp focus on commercial validation, market discovery, and startup execution.
-* 🎨 Passionate about the intersection of clean architecture and pixel-perfect, responsive UI.
-* 🧭 Constantly exploring new ways to optimize application memory limits, frame rates, and backend ecosystems.
-
----
-
-### 📫 Let's Connect
-
-<p align="center">
-  <a href="https://linkedin.com/in/tengo-kiknadze-8695391ab" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:tengizkiknadze8@example.com"><img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/BoogiemanN8"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
-
----
-
-### 📈 GitHub Activity 
-
-*(Note: The vast majority of my daily engineering work occurs in private, enterprise-level repositories under NDAs. The automated metrics below only reflect my public-facing contributions and do not represent my total commit history.)*
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BoogiemanN8&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
-</p>
+<a href="mailto:tengizkiknadze8@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email Tengiz Kiknadze"></a>
+<a href="https://www.linkedin.com/in/tengo-kiknadze-8695391ab"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
+<a href="https://apps.apple.com/us/developer/tengiz-kiknadze/id1860013061"><img src="assets/btn-all-apps.svg" height="36" alt="All apps by Tengiz Kiknadze on the App Store"></a>
+<a href="https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md"><img src="assets/btn-long-version.svg" height="36" alt="The long version: full profile of Tengiz Kiknadze, Senior iOS Developer"></a>

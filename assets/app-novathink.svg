@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="76" viewBox="0 0 260 76" role="img" aria-label="NovaThink, Idea validation, on the App Store">
+  <title>NovaThink, Idea validation, on the App Store</title>
+  <rect x=".5" y=".5" width="259" height="75" rx="14" fill="#161B22" stroke="#6E7681"/>
+  <rect x="15" y="15" width="46" height="46" rx="11" fill="#F05138" fill-opacity=".14" stroke="#F05138" stroke-width="1.5"/>
+  <text x="38" y="45.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#F05138">N</text>
+  <text x="74" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F0F6FC">NovaThink</text>
+  <text x="74" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9198A1">Idea validation</text>
+  <text x="245" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1.2" fill="#F05138">APP STORE</text>
+  <path d="M236 44l6 6-6 6" fill="none" stroke="#F05138" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
