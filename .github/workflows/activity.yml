@@ -1,0 +1,45 @@
+# Redraws assets/activity-{dark,light}.svg once a day from GitHub's contribution totals.
+# Only numbers are fetched and drawn (see .github/scripts/activity.py), so private work shows as a count.
+# STATS_TOKEN: read-only token of the profile owner, stored as an Actions secret.
+name: Activity card
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: activity-card
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: true
+
+      - name: Draw the card
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: python3 -I .github/scripts/activity.py
+
+      - name: Commit if the numbers changed
+        run: |
+          if git diff --quiet -- assets/activity-dark.svg assets/activity-light.svg; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898273+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-dark.svg assets/activity-light.svg
+          git commit -m "Update activity card"
+          git push

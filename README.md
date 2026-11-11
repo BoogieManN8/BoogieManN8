@@ -12,6 +12,14 @@ Right now most of my hours go to backend, security and infrastructure on a live 
 
 That's the short version. [The long version](https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md) has the full history, the stack and how I work.
 
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
+  <img src="assets/activity-dark.svg" width="100%" alt="GitHub activity of Tengiz Kiknadze over the last 12 months: contributions, commits, pull requests, code reviews and repositories, private work included as counts.">
+</picture>
+
 ## Open source
 
 - [Networking](https://github.com/BoogieManN8/Networking) is a small Swift networking layer on URLSession and async/await. It has typed endpoints, a WebSocket client that lives in an actor and reconnects by itself, and zero dependencies.
