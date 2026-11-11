@@ -4,25 +4,13 @@
   <img src="assets/banner-dark.svg" width="100%" alt="Tengiz Kiknadze, Senior iOS Developer. Swift, SwiftUI, UIKit and Swift Concurrency. Three apps on the App Store: Miroa, Shelft and NovaThink.">
 </picture>
 
-I'm **Tengiz Kiknadze**, a Senior iOS Developer in Tbilisi, Georgia. I've spent 6 years building iOS apps in Swift, SwiftUI and UIKit: a live crypto trading app, match-day dashboards for professional sports clubs, a vertical video feed for a social startup, and three apps of my own on the App Store.
+I'm **Tengiz Kiknadze**, a Senior iOS Developer in Tbilisi, Georgia. I've spent 6 years building iOS apps in Swift, SwiftUI and UIKit: a live crypto trading app, match-day dashboards for professional sports clubs and a vertical video feed for a social startup.
 
 Plenty of people start apps. I have a habit of finishing them.
 
 Right now most of my hours go to backend, security and infrastructure on a live crypto exchange. It is the heaviest work I've done so far. Real money has a way of sharpening your code review.
 
 That's the short version. [The long version](https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md) has the full history, the stack and how I work.
-
-## Apps I built and shipped
-
-<a href="https://apps.apple.com/us/app/miroa-private-video-journal/id6775486360"><img src="assets/app-miroa.svg" width="260" alt="Miroa: Private Video Journal on the App Store"></a>
-<a href="https://apps.apple.com/us/app/shelft-warranty-tracker-log/id6773617067"><img src="assets/app-shelft.svg" width="260" alt="Shelft: Warranty Tracker and Log on the App Store"></a>
-<a href="https://apps.apple.com/us/app/novathink-new-startup-ideas/id6761935846"><img src="assets/app-novathink.svg" width="260" alt="NovaThink: New Startup Ideas on the App Store"></a>
-
-- [Miroa](https://apps.apple.com/us/app/miroa-private-video-journal/id6775486360) is a private video and voice journal. It transcribes speech on the device, keeps an encrypted backup in Cloudflare R2 and runs AI analysis on your entries. Swift 6, SwiftUI, SwiftData, VIPER with RIBs, written test-first.
-- [Shelft](https://apps.apple.com/us/app/shelft-warranty-tracker-log/id6773617067) is a warranty and receipt tracker. Vision OCR reads the purchase details off a photo. CloudKit does the syncing, so there is no server to babysit.
-- [NovaThink](https://apps.apple.com/us/app/novathink-new-startup-ideas/id6761935846) is idea validation for founders. LLM integration with structured output, plus an iPad layout that is more than a stretched iPhone.
-
-I designed, built and released all three on my own, StoreKit 2 subscriptions and App Store review included.
 
 ## Open source
 
@@ -50,5 +38,4 @@ Email is the quickest way to reach me: [tengizkiknadze8@gmail.com](mailto:tengiz
 
 <a href="mailto:tengizkiknadze8@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email Tengiz Kiknadze"></a>
 <a href="https://www.linkedin.com/in/tengo-kiknadze-8695391ab"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
-<a href="https://apps.apple.com/us/developer/tengiz-kiknadze/id1860013061"><img src="assets/btn-all-apps.svg" height="36" alt="All apps by Tengiz Kiknadze on the App Store"></a>
 <a href="https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md"><img src="assets/btn-long-version.svg" height="36" alt="The long version: full profile of Tengiz Kiknadze, Senior iOS Developer"></a>
