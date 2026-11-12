@@ -1,7 +1,9 @@
 <picture>
+  <source media="(min-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/banner-dark-wide.svg">
+  <source media="(min-width: 768px) and (prefers-color-scheme: light)" srcset="assets/banner-light-wide.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" width="100%" alt="Tengiz Kiknadze, Senior iOS Developer. Swift, SwiftUI, UIKit and Swift Concurrency. Three apps on the App Store: Miroa, Shelft and NovaThink.">
+  <img src="assets/banner-dark.svg" width="100%" alt="Tengiz Kiknadze, Senior iOS Developer. Swift, SwiftUI, UIKit and Swift Concurrency.">
 </picture>
 
 I'm **Tengiz Kiknadze**, a Senior iOS Developer in Tbilisi, Georgia. I've spent 6 years building iOS apps in Swift, SwiftUI and UIKit: a live crypto trading app, match-day dashboards for professional sports clubs and a vertical video feed for a social startup.
@@ -44,6 +46,8 @@ I'm open to senior iOS roles, remote or in Europe. Relocation is fine. I pack li
 
 Email is the quickest way to reach me: [tengizkiknadze8@gmail.com](mailto:tengizkiknadze8@gmail.com)
 
+<p align="center">
 <a href="mailto:tengizkiknadze8@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email Tengiz Kiknadze"></a>
 <a href="https://www.linkedin.com/in/tengiz-kiknadze/"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
 <a href="https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md"><img src="assets/btn-long-version.svg" height="36" alt="The long version: full profile of Tengiz Kiknadze, Senior iOS Developer"></a>
+</p>

@@ -10,6 +10,7 @@ import random
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "..", "assets")
 W, H = 880, 260
+WIDE_H = 130
 GLYPHS = "01ｱｲｳｴｵｶｷｸｹｺｻｼｽｾﾀﾁﾂﾃﾄﾅﾆﾇﾈﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾗﾘﾜ0123456789ABCDEF"
 
 THEMES = {
@@ -26,9 +27,8 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;")
 
 
-def rain(t):
+def rain(t, x0=500, x1=872, fall=620):
     rnd = random.Random(1999)
-    x0, x1 = 500, 872
     step = 17
     cols = []
     styles = []
@@ -106,8 +106,55 @@ def banner(t):
 """
 
 
+def banner_wide(t):
+    """Slim strip for desktop widths: the intro text stays above the fold."""
+    W2, H2 = W, WIDE_H
+    rain_css, rain_cols = rain(t, x0=560, x1=872)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W2}" height="{H2}" viewBox="0 0 {W2} {H2}" role="img" aria-labelledby="title desc">
+  <title id="title">Tengiz Kiknadze, Senior iOS Developer</title>
+  <desc id="desc">Profile banner. Tengiz Kiknadze, Senior iOS Developer. Swift, SwiftUI, UIKit, Swift Concurrency. Green code rain on the right.</desc>
+  <style>
+    .sans {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }}
+    .mono {{ font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }}
+    .cur  {{ animation: blink 1.2s steps(1) infinite; }}
+    @keyframes blink {{ 0%, 55% {{ opacity: 1; }} 56%, 100% {{ opacity: 0; }} }}
+    @keyframes fall  {{ from {{ transform: translateY(0); }} to {{ transform: translateY(520px); }} }}
+    {rain_css}
+    @media (prefers-reduced-motion: reduce) {{ .cur, [class^="c"] {{ animation: none; }} }}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{t['bg1']}"/>
+      <stop offset="1" stop-color="{t['bg2']}"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="{t['fade']}" stop-opacity="1"/>
+      <stop offset=".4" stop-color="{t['fade']}" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="{W2}" height="{H2}" rx="12"/></clipPath>
+    <clipPath id="rainbox"><rect x="550" y="0" width="{W2 - 550}" height="{H2}"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="{W2}" height="{H2}" fill="url(#bg)"/>
+    <g clip-path="url(#rainbox)">
+      {rain_cols}
+    </g>
+    <rect x="550" y="0" width="{W2 - 550}" height="{H2}" fill="url(#side)"/>
+    <text x="852" y="114" class="mono" font-size="12" text-anchor="end" fill="{t['accent']}" fill-opacity=".85">follow the white rabbit_</text>
+    <rect x="40" y="28" width="3" height="74" rx="1.5" fill="{t['accent']}"/>
+    <text x="58" y="66" class="sans" font-size="40" font-weight="800" letter-spacing="-1" fill="{t['name']}">Tengiz Kiknadze</text>
+    <rect class="cur" x="60" y="80" width="8" height="15" fill="{t['accent']}"/>
+    <text x="76" y="93" class="mono" font-size="15" fill="{t['muted']}">Senior iOS Developer / Swift / SwiftUI / UIKit</text>
+  </g>
+  <rect x=".5" y=".5" width="{W2 - 1}" height="{H2 - 1}" rx="11.5" fill="none" stroke="{t['border']}"/>
+</svg>
+"""
+
+
 if __name__ == "__main__":
     for name, theme in THEMES.items():
         with open(os.path.normpath(os.path.join(OUT, f"banner-{name}.svg")), "w") as f:
             f.write(banner(theme))
+        with open(os.path.normpath(os.path.join(OUT, f"banner-{name}-wide.svg")), "w") as f:
+            f.write(banner_wide(theme))
     print("written")
