@@ -45,5 +45,5 @@ I'm open to senior iOS roles, remote or in Europe. Relocation is fine. I pack li
 Email is the quickest way to reach me: [tengizkiknadze8@gmail.com](mailto:tengizkiknadze8@gmail.com)
 
 <a href="mailto:tengizkiknadze8@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email Tengiz Kiknadze"></a>
-<a href="https://www.linkedin.com/in/tengo-kiknadze-8695391ab"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
+<a href="https://www.linkedin.com/in/tengiz-kiknadze/"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
 <a href="https://github.com/BoogieManN8/BoogieManN8/blob/main/ABOUT.md"><img src="assets/btn-long-version.svg" height="36" alt="The long version: full profile of Tengiz Kiknadze, Senior iOS Developer"></a>

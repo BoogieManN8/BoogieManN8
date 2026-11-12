@@ -38,10 +38,10 @@ query($login: String!) {
 """
 
 THEMES = {
-    "dark": dict(bg1="#0D1117", bg2="#161B22", border="#30363D", text="#F0F6FC", muted="#8B949E",
-                 accent="#F05138", bar="#30363D"),
-    "light": dict(bg1="#FFFFFF", bg2="#F6F8FA", border="#D1D9E0", text="#1F2328", muted="#59636E",
-                  accent="#CF3F1E", bar="#D1D9E0"),
+    "dark": dict(bg1="#0D1117", bg2="#0B1410", border="#1F3A2A", text="#F0F6FC", muted="#8B949E",
+                 accent="#39D353", bar="#21262D"),
+    "light": dict(bg1="#FFFFFF", bg2="#F3F8F4", border="#C9DCCF", text="#1F2328", muted="#59636E",
+                  accent="#1A7F37", bar="#D1D9E0"),
 }
 
 # Every piece of text that may appear in the card. Anything else must be a number.

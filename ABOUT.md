@@ -3,7 +3,7 @@
 Swift, SwiftUI, UIKit and Swift Concurrency. Based in Tbilisi, Georgia. Open to remote work and to relocation within Europe.
 
 <a href="https://github.com/BoogieManN8"><img src="assets/btn-short-version.svg" height="36" alt="The short version: GitHub profile of Tengiz Kiknadze"></a>
-<a href="https://www.linkedin.com/in/tengo-kiknadze-8695391ab"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
+<a href="https://www.linkedin.com/in/tengiz-kiknadze/"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
 <a href="https://apps.apple.com/us/developer/tengiz-kiknadze/id1860013061"><img src="assets/btn-all-apps.svg" height="36" alt="All apps by Tengiz Kiknadze on the App Store"></a>
 
 ## About
@@ -138,5 +138,5 @@ I'm open to senior iOS roles, remote or in Europe. Relocation is fine.
 Email is the quickest way to reach me: [tengizkiknadze8@gmail.com](mailto:tengizkiknadze8@gmail.com)
 
 <a href="mailto:tengizkiknadze8@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email Tengiz Kiknadze"></a>
-<a href="https://www.linkedin.com/in/tengo-kiknadze-8695391ab"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
+<a href="https://www.linkedin.com/in/tengiz-kiknadze/"><img src="assets/btn-linkedin.svg" height="36" alt="Tengiz Kiknadze on LinkedIn"></a>
 <a href="https://github.com/BoogieManN8"><img src="assets/btn-short-version.svg" height="36" alt="Back to the short version: GitHub profile of Tengiz Kiknadze"></a>
